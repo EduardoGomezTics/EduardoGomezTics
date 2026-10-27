@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[NOMBRE] | Portafolio</title>
+  <meta name="description" content="[PLACEHOLDER] Portafolio personal de [NOMBRE].">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/projects.js" defer></script>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">[NOMBRE]</a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="hero" class="section">
+      <!-- // Aquí va tu presentación -->
+      <div class="hero-content">
+        <h1 class="hero-title">&gt; Eduardo_Gomez.exe</h1>
+        <p class="hero-subtitle">
+          Ingeniería en ITICs // Software, IoT, redes y ciberseguridad.
+          Del código al hardware: construyo y analizo sistemas.
+        </p>
+        <a href="#proyectos" class="btn btn-cta">Ver Proyectos</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <!-- // Aquí va tu biografía -->
+      <div class="about-grid">
+        <div class="about-photo" role="img" aria-label="Placeholder de foto de perfil">
+          <span>[ FOTO ]</span>
+        </div>
+        <div class="about-text">
+          <p class="section-label">Sobre mí</p>
+          <h2>Eduardo Gómez</h2>
+          <p>
+            Soy Eduardo Gómez, estudiante de Ingeniería en ITICs. Trabajo en la
+            convergencia de software, hardware y redes: aplicaciones,
+            prototipos con ESP32 e infraestructura segura.
+          </p>
+          <p>
+            Busco una estancia dual remunerada para sumar proyectos reales,
+            desde sistemas embebidos hasta redes y seguridad informática.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <p class="section-label">Proyectos</p>
+      <h2>[PLACEHOLDER]</h2>
+      <div class="project-filters" role="group" aria-label="Filtrar proyectos por categoría">
+        <button type="button" class="filter-btn active" data-filter="all">Todos</button>
+        <button type="button" class="filter-btn" data-filter="software">Software</button>
+        <button type="button" class="filter-btn" data-filter="iot">IoT</button>
+        <button type="button" class="filter-btn" data-filter="ciberseguridad">Ciberseguridad</button>
+        <button type="button" class="filter-btn" data-filter="redes">Redes</button>
+      </div>
+      <div class="projects-grid">
+        <!-- // Las tarjetas se generan desde data/projects.json (js/projects.js) -->
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <!-- Reemplazar: href="#" por tus enlaces reales (GitHub, LinkedIn, mailto:) -->
+      <p class="section-label">Establecer_contacto</p>
+      <h2>[PLACEHOLDER]</h2>
+      <p class="contact-text">¿Tienes una idea o proyecto en mente? Me encantaría colaborar. Escríbeme y conectemos.</p>
+      <div class="contact-links">
+        <a href="#" class="btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+          GitHub
+        </a>
+        <a href="#" class="btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          LinkedIn
+        </a>
+        <a href="#" class="btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm1 3.2V18h18V7.2l-9 6.3-9-6.3zM4.6 6l7.4 5.2L19.4 6H4.6z"/></svg>
+          Correo
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> [NOMBRE]</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

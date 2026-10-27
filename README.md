@@ -1,16 +1,21 @@
-## Hi there 👋
+# Portafolio personal (molde)
 
-<!--
-**EduardoGomezTics/EduardoGomezTics** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Esqueleto estático para GitHub Pages (`EduardoGomezTics.github.io`) con estética terminal / cyberpunk. HTML5, CSS3 y JS vanilla, sin build.
 
-Here are some ideas to get you started:
+## Estructura
+```
+index.html          Estructura semántica (vacía, con placeholders)
+css/reset.css       Normalización básica
+css/styles.css      Variables, tipografía, layout y diseño cyberpunk
+js/main.js          Año dinámico del footer
+assets/images/      Imágenes
+assets/icons/       Iconos
+assets/docs/        Documentos (CV, etc.)
+.nojekyll           Desactiva Jekyll en GitHub Pages
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Personalización
+El color neón se cambia en `css/styles.css`, dentro de `:root` (`--accent-color` y `--accent-rgb`).
+
+## Ver en local
+Abre la carpeta en VS Code y usa la extensión **Live Server** (clic derecho en `index.html` > *Open with Live Server*).

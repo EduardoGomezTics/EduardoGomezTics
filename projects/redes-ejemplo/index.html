@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Proyecto Redes] | [NOMBRE]</title>
+  <meta name="description" content="[PLACEHOLDER] Detalle del proyecto de redes.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script src="../../js/main.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../../index.html#hero" class="logo">[NOMBRE]</a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="../../index.html#hero">Inicio</a></li>
+          <li><a href="../../index.html#sobre-mi">Sobre mí</a></li>
+          <li><a href="../../index.html#proyectos">Proyectos</a></li>
+          <li><a href="../../index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <a href="../../index.html#proyectos" class="btn back-btn">&larr; Volver al portafolio</a>
+
+    <article class="section project-detail">
+      <p class="section-label">Proyecto de Redes</p>
+      <!-- Reemplazar: título del proyecto -->
+      <h1 class="detail-title">[Proyecto Redes]</h1>
+
+      <!-- Reemplazar: etiquetas del proyecto -->
+      <div class="project-tags">
+        <span class="tag">#Redes</span>
+        <span class="tag">#Cisco</span>
+        <span class="tag">#VLAN</span>
+      </div>
+
+      <div class="detail-content">
+        <!-- Reemplazar: descripción general de la infraestructura -->
+        <p>[PLACEHOLDER] Descripción general de la infraestructura de red, su objetivo y alcance.</p>
+      </div>
+
+      <!-- // Topología -->
+      <section class="detail-block" aria-labelledby="red-topologia">
+        <h2 id="red-topologia" class="detail-block-title">Topología</h2>
+        <!-- Reemplazar: diagrama de red (imagen o SVG) -->
+        <div class="placeholder-box placeholder-wide">Diagrama de topología aquí</div>
+      </section>
+
+      <!-- // Tabla de Direccionamiento / VLANs -->
+      <section class="detail-block" aria-labelledby="red-direccionamiento">
+        <h2 id="red-direccionamiento" class="detail-block-title">Tabla de Direccionamiento / VLANs</h2>
+        <div class="table-wrapper">
+          <table class="data-table">
+            <caption class="visually-hidden">Direccionamiento IP y VLANs por dispositivo</caption>
+            <thead>
+              <tr>
+                <th scope="col">Dispositivo</th>
+                <th scope="col">Interfaz</th>
+                <th scope="col">VLAN</th>
+                <th scope="col">IP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Reemplazar: filas con el direccionamiento real -->
+              <tr>
+                <td>[R1]</td>
+                <td>G0/0.10</td>
+                <td>10</td>
+                <td>192.168.10.1/24</td>
+              </tr>
+              <tr>
+                <td>[SW1]</td>
+                <td>VLAN 10</td>
+                <td>10</td>
+                <td>192.168.10.2/24</td>
+              </tr>
+              <tr>
+                <td>[PC1]</td>
+                <td>NIC</td>
+                <td>10</td>
+                <td>192.168.10.10/24</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- // Configuración CLI -->
+      <section class="detail-block" aria-labelledby="red-cli">
+        <h2 id="red-cli" class="detail-block-title">Configuración CLI</h2>
+        <!-- Reemplazar: comandos reales de configuración (Cisco IOS) -->
+        <pre class="terminal-block"><code>Switch&gt; enable
+Switch# configure terminal
+Switch(config)# vlan 10
+Switch(config-vlan)# name VENTAS
+Switch(config-vlan)# exit</code></pre>
+      </section>
+
+      <!-- Reemplazar: enlaces reales al repositorio / documentación -->
+      <div class="detail-links">
+        <a href="https://github.com/EduardoGomezTics" class="btn" target="_blank" rel="noopener noreferrer">Repositorio</a>
+      </div>
+    </article>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> [NOMBRE]</p>
+    </div>
+  </footer>
+
+</body>
+</html>

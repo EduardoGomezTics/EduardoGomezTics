@@ -1,0 +1,58 @@
+[
+  {
+    "id": "software-ejemplo",
+    "title": "API de Gestión Tecnológica",
+    "category": "software",
+    "tags": ["JavaScript", "Web"],
+    "summary": "API REST modular con persistencia de datos y validación de solicitudes.",
+    "cover": "assets/images/projects/ejemplo.jpg",
+    "type": "internal",
+    "url": "projects/software-ejemplo/index.html",
+    "links": {
+      "repo": "https://github.com/EduardoGomezTics",
+      "demo": "https://eduardogomeztics.github.io"
+    }
+  },
+  {
+    "id": "iot-ejemplo",
+    "title": "ESP32 // Sistema IoT",
+    "category": "iot",
+    "tags": ["Python", "IoT", "Sensores"],
+    "summary": "Prototipo ESP32 inalámbrico: adquisición de datos, firmware y periféricos.",
+    "cover": "assets/images/projects/ejemplo.jpg",
+    "type": "internal",
+    "url": "projects/iot-ejemplo/",
+    "links": {
+      "repo": "https://github.com/EduardoGomezTics",
+      "demo": ""
+    }
+  },
+  {
+    "id": "ciberseguridad-ejemplo",
+    "title": "Security Research // Lab",
+    "category": "ciberseguridad",
+    "tags": ["Ciberseguridad", "Linux"],
+    "summary": "Análisis de tráfico y superficies de ataque, con mitigación defensiva.",
+    "cover": "assets/images/projects/ejemplo.jpg",
+    "type": "internal",
+    "url": "projects/ciberseguridad-ejemplo/",
+    "links": {
+      "repo": "https://github.com/EduardoGomezTics",
+      "demo": ""
+    }
+  },
+  {
+    "id": "redes-ejemplo",
+    "title": "Network Infrastructure Lab",
+    "category": "redes",
+    "tags": ["Redes", "Cisco"],
+    "summary": "Topologías Cisco y segmentación lógica, con diagnóstico de conectividad.",
+    "cover": "assets/images/projects/ejemplo.jpg",
+    "type": "internal",
+    "url": "projects/redes-ejemplo/",
+    "links": {
+      "repo": "https://github.com/EduardoGomezTics",
+      "demo": ""
+    }
+  }
+]
